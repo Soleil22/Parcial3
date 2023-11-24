@@ -1,4 +1,4 @@
-/*import Storage, { PersistanceKeys } from "../utils/storage";
+import Storage, { PersistanceKeys } from "../utils/storage";
 import { Actions, AppState, Observer } from "../types/store";
 import { reducer } from "./reducer";
 
@@ -29,4 +29,4 @@ export const dispatch = (action: Actions) => {
 
 export const addObserver = (ref: Observer) => {
   observers = [...observers, ref];
-};*/
+};
